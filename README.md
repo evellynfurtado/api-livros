@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <b>API RESTful para gerenciamento de livros desenvolvida com FastAPI, Python e MySQL.</b>
+  <b>API para gerenciamento de livros desenvolvida com FastAPI, Python e MySQL.</b>
 </p>
 
 ---
