@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09/09/2026 às 21:49
--- Versão do servidor: 10.4.32-MariaDB
--- Versão do PHP: 8.2.12
+-- Tempo de geração: 23/09/2026 às 18:21
+-- Versão do servidor: 10.4.28-MariaDB
+-- Versão do PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,9 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `biblioteca_db`
 --
-CREATE DATABASE biblioteca_db
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
+
 -- --------------------------------------------------------
 
 --
@@ -42,9 +40,9 @@ CREATE TABLE `livros` (
 --
 
 INSERT INTO `livros` (`id`, `titulo`, `autor`, `ano_publicacao`, `disponivel`) VALUES
-(1, 'É assim que acaba', 'Collen Hoover', 2008, 1),
-(2, 'É assim que começa', 'Collen Hoover', 2009, 1),
-(3, 'Verity', 'Collen Hoover', 2009, 1);
+(1, 'É assim que Acaba', 'Collen Hoover', 2010, 1),
+(4, 'Verity', 'Collen Hoover', 2008, 1),
+(5, 'É assim que começa', 'Collen Hooverr', 2010, 1);
 
 --
 -- Índices para tabelas despejadas
@@ -65,7 +63,7 @@ ALTER TABLE `livros`
 -- AUTO_INCREMENT de tabela `livros`
 --
 ALTER TABLE `livros`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
